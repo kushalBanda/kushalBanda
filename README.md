@@ -22,9 +22,11 @@
 
 - 👀 I’m interested in AI
 
-- 🌱 I’m currently learning Deep Learning and OpenCV 
+- 🌱 I’m currently learning Generative AI
 
-- 👯 I’m looking to collaborate on ML and DL Projects  
+- 👯 I’m looking to collaborate on DL and Generative AI Projects
+
+- Website: <a href = "https://tome.app/kushalbanda/kushal-banda-cltwvowjh0fppo9630z68ze8b">Kushal's Portfolio</a>
 
 <h2> Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 <a href= https://github.com/kushalBanda?tab=repositories&q=&type=&language=python&sort= > <img width ='32px' src ='https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/python.svg'> </a>

@@ -18,11 +18,9 @@
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
 
-- 🔭 I’m currently studying in Mahindra University 
+- 🔭 I’ve graduated from Mahindra University 
 
-- 👀 I’m interested in AI
-
-- 🌱 I’m currently learning Generative AI
+- 👀 I’m work as an AI-Engineer
 
 - 👯 I’m looking to collaborate on DL and Generative AI Projects
 

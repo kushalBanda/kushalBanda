@@ -20,7 +20,7 @@
 
 - 🔭 I’ve graduated from Mahindra University 
 
-- 👀 I’m work as an AI-Engineer
+- 👀 I currently work as an AI-Engineer
 
 - 👯 I’m looking to collaborate on DL and Generative AI Projects
 

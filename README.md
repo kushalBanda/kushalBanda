@@ -44,12 +44,16 @@
 </h2>
 <a href = 'https://github.com/kushalBanda'> <img width = '32px' align= 'center' 
 src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+<a href = 'https://www.linkedin.com/in/kushalbanda/'> <img width = '32px' align= 'center'
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"/></a>
+<a href = 'https://medium.com/@kushalbanda'> <img width = '32px' align= 'center'
+src="https://cdn.simpleicons.org/medium"/></a>
+<a href = 'https://marketplace.visualstudio.com/items?itemName=KushalBanda.graphy'> <img width = '32px' align= 'center'
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"/></a> 
 <a href = 'https://codeforces.com/profile/kushal_banda'> <img width = '32px' align= 'center' 
 src="https://simpleicons.org/icons/codeforces.svg" /></a> 
 <a href = 'https://www.codechef.com/users/kushal_banda23'> <img width = '32px' align= 'center'
 src="https://s3.amazonaws.com/codechef_shared/misc/fb-image-icon.png"/></a> 
-<a href = 'https://marketplace.visualstudio.com/items?itemName=KushalBanda.graphy'> <img width = '32px' align= 'center'
-src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"/></a> 
 
 <br>
 <br>

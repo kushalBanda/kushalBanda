@@ -47,11 +47,13 @@ src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/ma
 <a href = 'https://www.linkedin.com/in/kushalbanda/'> <img width = '32px' align= 'center'
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"/></a>
 <a href = 'https://medium.com/@kushalbanda'> <img width = '32px' align= 'center'
-src="https://cdn.simpleicons.org/medium"/></a>
+src="https://cdn.simpleicons.org/medium/FFFFFF"/></a>
 <a href = 'https://marketplace.visualstudio.com/items?itemName=KushalBanda.graphy'> <img width = '32px' align= 'center'
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"/></a> 
 <a href = 'https://codeforces.com/profile/kushal_banda'> <img width = '32px' align= 'center' 
-src="https://simpleicons.org/icons/codeforces.svg" /></a> 
+src="https://cdn.simpleicons.org/codeforces/FFFFFF" /></a> 
+<a href = 'https://leetcode.com/u/rQ0FAJb1Jj/'> <img width = '32px' align= 'center'
+src="https://cdn.simpleicons.org/leetcode/FFFFFF"/></a>
 <a href = 'https://www.codechef.com/users/kushal_banda23'> <img width = '32px' align= 'center'
 src="https://s3.amazonaws.com/codechef_shared/misc/fb-image-icon.png"/></a> 
 

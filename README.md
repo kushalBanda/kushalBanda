@@ -1,4 +1,3 @@
-
 <h1> Hello Guys! <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 30px> </h1>
 <p align='center'>
 </p>
@@ -13,10 +12,10 @@
 
 <img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 🔭 I’ve graduated from Mahindra University
-- 👀 I currently work as an AI-Engineer
-- 👯 I’m looking to collaborate on DL and Generative AI Projects
-- Website: [Kushal's Portfolio](https://kushalbanda.github.io)
+- 👀 I’m an Applied AI Engineer
+- 📝 I write tech articles on [Medium](https://medium.com/@kushalbanda)
+- 🧩 Check out my VS Code extension: [Graphy](https://marketplace.visualstudio.com/items?itemName=KushalBanda.graphy)
+- Website: [Kushal&#39;s Portfolio](https://kushalbanda.github.io)
 
 <h2> Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> </h2>
 
@@ -55,7 +54,7 @@ src="https://cdn.simpleicons.org/codeforces/FFFFFF" /></a>
 <a href = 'https://leetcode.com/u/rQ0FAJb1Jj/'> <img width = '32px' align= 'center'
 src="https://cdn.simpleicons.org/leetcode"/></a>
 <a href = 'https://www.codechef.com/users/kushal_banda23'> <img width = '32px' align= 'center'
-src="https://s3.amazonaws.com/codechef_shared/misc/fb-image-icon.png"/></a> 
+src="https://s3.amazonaws.com/codechef_shared/misc/fb-image-icon.png"/></a>
 
 <br>
 <br>

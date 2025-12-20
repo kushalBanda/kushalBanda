@@ -53,7 +53,7 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vsco
 <a href = 'https://codeforces.com/profile/kushal_banda'> <img width = '32px' align= 'center' 
 src="https://cdn.simpleicons.org/codeforces/FFFFFF" /></a> 
 <a href = 'https://leetcode.com/u/rQ0FAJb1Jj/'> <img width = '32px' align= 'center'
-src="https://cdn.simpleicons.org/leetcode/FFFFFF"/></a>
+src="https://cdn.simpleicons.org/leetcode"/></a>
 <a href = 'https://www.codechef.com/users/kushal_banda23'> <img width = '32px' align= 'center'
 src="https://s3.amazonaws.com/codechef_shared/misc/fb-image-icon.png"/></a> 
 

@@ -105,15 +105,15 @@ def header(small: bool = False) -> str:
 
 
 # ---------- Product cards: the site's hover preview, laid flat ----------
-# Three cards sit inline at a third of the column each. Phones get the same cards with the foot type
-# set larger (a card is about 115px wide there) and a shorter kind line.
+# Four cards sit inline at a quarter of the column each. Phones get the same cards with the foot type
+# set larger (a card is about 85px wide there) and a shorter kind line.
 CW = 400
 GAP = 12
 
 
 def card(label, bg, ink, sub, name, kind, media, line=(), line_ink=None, style="", gap=GAP, small=False) -> str:
     """Desktop foot: name, a two-line note on what the product does, then kind and year.
-    Phones drop the note (a card is about 115px wide there) and set name and kind larger."""
+    Phones drop the note (a card is about 85px wide there) and set name and kind larger."""
     foot = 318 if small else 360  # the hairline above the card's name
     h = 460 if small else 548
     if small:
@@ -150,6 +150,28 @@ def opusbar(small: bool = False) -> str:
         "OpusBar, a macOS menu bar app: a pixel cat that shows what your Claude Code and Codex sessions are doing.",
         "#F5F1E4", "#2C2E2A", "#5F6159", "OpusBar", "Menu bar app" if small else "macOS menu bar app · 2026",
         media, ("Your Claude Code and Codex", "sessions, in the menu bar."), style=style, small=small,
+    )
+
+
+def athena(small: bool = False) -> str:
+    # A crop of the landing page's install terminal: the window bar and the typed npm command.
+    iw = CW - 56
+    ih = 214 if small else iw * 0.62
+    y = 56 if small else 72
+    crop_w = 420  # from the terminal's left edge to just past the command
+    crop_h = crop_w * ih / iw
+    media = (
+        '<defs><filter id="shot" x="-20%" y="-20%" width="140%" height="160%">'
+        '<feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.5"/></filter></defs>'
+        f'<rect x="28" y="{y}" width="{iw}" height="{ih:.1f}" rx="4" fill="#18181B" stroke="#26262B" filter="url(#shot)"/>'
+        f'<svg x="28" y="{y}" width="{iw}" height="{ih:.1f}" viewBox="150 176 {crop_w} {crop_h:.1f}" overflow="hidden">'
+        f'<image href="{data_uri("athena.webp", "image/webp")}" width="1040" height="646"/></svg>'
+    )
+    return card(
+        "Athena, an open-source AI coding agent for the terminal that knows your codebase, not just your prompt. Screenshot of its install terminal.",
+        # Kind line lifted from the site's #6B6B70 muted grey, which is 3.5:1 on #121214, too low for small text.
+        "#121214", "#ECE9E4", "#9A9AA0", "Athena", "Coding agent" if small else "Terminal coding agent · 2026",
+        media, ("A coding agent that knows", "your codebase."), small=small,
     )
 
 
@@ -274,6 +296,7 @@ if __name__ == "__main__":
         sm = "-sm" if small else ""
         write(f"header{sm}.svg", header(small))
         write(f"opusbar{sm}.svg", opusbar(small))
+        write(f"athena{sm}.svg", athena(small))
         write(f"graphy{sm}.svg", graphy(small))
         write(f"openticker{sm}.svg", openticker(small))
         write(f"footer{sm}.svg", footer(small))

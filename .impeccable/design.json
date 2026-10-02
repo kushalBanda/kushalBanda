@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T00:00:00Z",
+  "title": "Design System: Kushal Banda, GitHub profile",
+  "extensions": {
+    "colorMeta": {
+      "grey": {
+        "role": "neutral",
+        "displayName": "Portrait Grey",
+        "canonical": "#737677",
+        "oklch": "oklch(56.4% 0.004 219.6)",
+        "purpose": "Name band field; white text 4.58:1.",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#222425",
+          "#3E4041",
+          "#5B5E5F",
+          "#7B7E7F",
+          "#9C9FA0",
+          "#C2C5C5",
+          "#ECEFF0"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1C1D20",
+        "oklch": "oklch(23.1% 0.006 271.2)",
+        "purpose": "Location pill and footer panel.",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#232427",
+          "#3F4043",
+          "#5C5D61",
+          "#7C7D80",
+          "#9D9EA1",
+          "#C3C4C7",
+          "#EDEEF1"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#FFFFFF",
+        "oklch": "oklch(100% 0 0)",
+        "purpose": "Name, role, all text and strokes on grey and ink; Graphy card name.",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#7D7D7D",
+          "#9E9E9E",
+          "#C4C4C4",
+          "#EEEEEE"
+        ]
+      },
+      "muted-on-ink": {
+        "role": "neutral",
+        "displayName": "Quiet Grey on Ink",
+        "canonical": "#A3A5AA",
+        "oklch": "oklch(72.2% 0.008 268.5)",
+        "purpose": "Footer email and site lines; 6.84:1 on ink.",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232427",
+          "#3E4043",
+          "#5C5D61",
+          "#7B7D81",
+          "#9C9EA3",
+          "#C2C4C9",
+          "#ECEEF3"
+        ]
+      },
+      "line-on-ink": {
+        "role": "neutral",
+        "displayName": "Hairline on Ink",
+        "canonical": "rgba(255, 255, 255, 0.2)",
+        "purpose": "Footer rule."
+      },
+      "globe-grey": {
+        "role": "neutral",
+        "displayName": "Globe Grey",
+        "canonical": "#999C9D",
+        "oklch": "oklch(69.1% 0.004 219.5)",
+        "purpose": "Disc behind the line globe; decorative, never carries text.",
+        "tonalRamp": [
+          "#090C0C",
+          "#202223",
+          "#3B3E3E",
+          "#595B5C",
+          "#787B7C",
+          "#9C9FA0",
+          "#C1C5C6",
+          "#ECEFF0"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Signal Blue",
+        "canonical": "#455CE9",
+        "oklch": "oklch(54.4% 0.213 270.5)",
+        "purpose": "The footer's round 'Get in touch' button only.",
+        "tonalRamp": [
+          "#040038",
+          "#110075",
+          "#211DAD",
+          "#3647D3",
+          "#516BF9",
+          "#7A97FE",
+          "#AEC2FF",
+          "#E8EEFF"
+        ]
+      },
+      "opusbar-cream": {
+        "role": "tertiary",
+        "displayName": "OpusBar Cream",
+        "canonical": "#F5F1E4",
+        "oklch": "oklch(95.8% 0.018 92.7)",
+        "purpose": "OpusBar card field.",
+        "tonalRamp": [
+          "#0E0B04",
+          "#252218",
+          "#403D33",
+          "#5E5B50",
+          "#7E7A6F",
+          "#A29E92",
+          "#C8C4B8",
+          "#F2EEE1"
+        ]
+      },
+      "opusbar-ink": {
+        "role": "tertiary",
+        "displayName": "OpusBar Ink",
+        "canonical": "#2C2E2A",
+        "oklch": "oklch(29.8% 0.008 128.7)",
+        "purpose": "OpusBar name, hairline, cat contact shadow.",
+        "tonalRamp": [
+          "#0A0C08",
+          "#20221F",
+          "#3C3E3A",
+          "#595C57",
+          "#797B76",
+          "#9D9F9A",
+          "#C2C5C0",
+          "#EDEFEA"
+        ]
+      },
+      "opusbar-quiet": {
+        "role": "tertiary",
+        "displayName": "OpusBar Quiet",
+        "canonical": "#5F6159",
+        "oklch": "oklch(48.8% 0.013 118.3)",
+        "purpose": "OpusBar kind line; 5.56:1 on cream.",
+        "tonalRamp": [
+          "#0B0C06",
+          "#21231C",
+          "#3C3E37",
+          "#5A5C54",
+          "#797B73",
+          "#9DA097",
+          "#C3C5BC",
+          "#EDF0E6"
+        ]
+      },
+      "graphy-blue": {
+        "role": "tertiary",
+        "displayName": "Graphy Blue",
+        "canonical": "#5A8BE6",
+        "oklch": "oklch(64.5% 0.147 261.8)",
+        "purpose": "Graphy card field.",
+        "tonalRamp": [
+          "#000037",
+          "#001266",
+          "#093588",
+          "#2956AC",
+          "#4777D0",
+          "#6A9CF9",
+          "#99C4FF",
+          "#D5F0FF"
+        ]
+      },
+      "graphy-navy": {
+        "role": "tertiary",
+        "displayName": "Graphy Navy",
+        "canonical": "#0F1E3D",
+        "oklch": "oklch(24.1% 0.063 263.1)",
+        "purpose": "Graphy kind line; 4.92:1 where white is 3.35:1.",
+        "tonalRamp": [
+          "#010825",
+          "#11203F",
+          "#2B3D5E",
+          "#485B7E",
+          "#677AA0",
+          "#8A9FC6",
+          "#AFC5EE",
+          "#D9EFFF"
+        ]
+      },
+      "openticker-ink": {
+        "role": "tertiary",
+        "displayName": "OpenTicker Ink",
+        "canonical": "#0F1115",
+        "oklch": "oklch(17.7% 0.009 264.3)",
+        "purpose": "OpenTicker card field.",
+        "tonalRamp": [
+          "#090B0F",
+          "#1F2226",
+          "#3B3D42",
+          "#585B60",
+          "#787A80",
+          "#9C9EA4",
+          "#C1C4CA",
+          "#EBEEF5"
+        ]
+      },
+      "openticker-paper": {
+        "role": "tertiary",
+        "displayName": "OpenTicker Paper",
+        "canonical": "#E8EAEE",
+        "oklch": "oklch(93.7% 0.006 264.5)",
+        "purpose": "OpenTicker name, status pill outline (0.24), dot and label.",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#202224",
+          "#3C3D40",
+          "#595B5E",
+          "#787A7E",
+          "#9C9EA2",
+          "#C2C4C8",
+          "#ECEEF2"
+        ]
+      },
+      "openticker-quiet": {
+        "role": "tertiary",
+        "displayName": "OpenTicker Quiet",
+        "canonical": "#9A9EA6",
+        "oklch": "oklch(69.9% 0.013 264.5)",
+        "purpose": "OpenTicker kind line; 7.03:1.",
+        "tonalRamp": [
+          "#090B11",
+          "#1F2228",
+          "#3A3D44",
+          "#575B62",
+          "#777A82",
+          "#9A9EA6",
+          "#C0C4CC",
+          "#EAEFF7"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Sliding name only; textLength 1418; phones scale 0.64."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Footer 'Let's work together'; phones 96."
+      },
+      "card-name": {
+        "displayName": "Card Name",
+        "purpose": "Product name in card foot; phones 64."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Role line on the band; phones 40."
+      },
+      "pill": {
+        "displayName": "Pill",
+        "purpose": "City in the location pill."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Footer email and site; phones 30."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Round button label; phones 28."
+      },
+      "card-kind": {
+        "displayName": "Card Kind",
+        "purpose": "Kind and year in card foot; phones 44."
+      }
+    },
+    "fonts": [
+      {
+        "family": "General Sans",
+        "source": "Fontshare (Indian Type Foundry)",
+        "license": "ITF Free Font License (assets/src/GeneralSans-FFL.txt)",
+        "files": [
+          "assets/src/GeneralSans-Regular.woff2"
+        ],
+        "weights": [
+          400
+        ],
+        "embedding": "base64 data URI @font-face inside every SVG"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "screenshot",
+        "value": "feDropShadow dx=0 dy=18 stdDeviation=20 flood-color=#000 flood-opacity=0.28",
+        "purpose": "Graphy screenshot inside its card."
+      },
+      {
+        "name": "page-edge-light",
+        "value": "black ellipse matching the curve, feGaussianBlur stdDeviation=22, opacity 0.45, clipped to the ink panel",
+        "purpose": "Footer curve on GitHub's light page."
+      },
+      {
+        "name": "page-edge-dark",
+        "value": "paper stroke along the curve, width 1.5, opacity 0.18",
+        "purpose": "Footer curve on GitHub's dark page; replaces the shadow."
+      },
+      {
+        "name": "contact",
+        "value": "ellipse rx 44 ry 6, #2C2E2A at 0.12",
+        "purpose": "Ground under the OpusBar cat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Signature stroke draw."
+      },
+      {
+        "name": "band-slide",
+        "value": "translateX(-one unit), 22s linear infinite",
+        "purpose": "Name track on the band."
+      },
+      {
+        "name": "globe",
+        "value": "meridian scaleX 1 -> -1 -> 1, 5s linear infinite",
+        "purpose": "Location pill globe."
+      },
+      {
+        "name": "cat-run",
+        "value": "two sprite frames, 0.5s cycle (250ms each), infinite",
+        "purpose": "OpusBar card."
+      },
+      {
+        "name": "pulse",
+        "value": "opacity 1 -> 0.25 -> 1, 2s ease-in-out infinite",
+        "purpose": "OpenTicker status dot."
+      },
+      {
+        "name": "signature-draw",
+        "value": "stroke-dashoffset 1 -> 0 per stroke, site durations, +0.4s offset, fill both, runs once on image load",
+        "purpose": "Footer signature."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce){*{animation:none!important}}",
+        "purpose": "In every SVG; stops all motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "max-width: 600px",
+        "purpose": "<picture> serves -sm canvases (720 wide; cards 412/400 by 460 with larger type)."
+      },
+      {
+        "name": "dark",
+        "value": "prefers-color-scheme: dark",
+        "purpose": "Footer serves footer-dark / footer-sm-dark."
+      }
+    ],
+    "constraints": [
+      "GitHub strips CSS, scripts and web fonts: designed surfaces are committed SVGs generated by assets/build.py.",
+      "Fonts and images are embedded as data URIs; no external requests, no third-party image services.",
+      "Sizes are SVG viewBox units; images are fluid in GitHub's column.",
+      "No script runs inside <img> SVGs, so motion cannot react to scroll or visibility."
+    ]
+  },
+  "components": [
+    {
+      "name": "Name Band",
+      "kind": "custom",
+      "refersTo": "name-band",
+      "description": "Grey field, name sliding left off both edges, 22s linear loop.",
+      "html": "<div class=\"ds-band\"><div class=\"ds-band-track\"><span>Kushal Banda</span><i></i><span>Kushal Banda</span><i></i></div></div>",
+      "css": ".ds-band{background:#737677;color:#fff;overflow:hidden;height:200px;display:flex;align-items:flex-end;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}.ds-band-track{display:flex;align-items:center;white-space:nowrap;font-size:120px;line-height:1;letter-spacing:-0.03em;animation:ds-slide 22s linear infinite}.ds-band-track span{padding:0 14px}.ds-band-track i{display:block;width:66px;height:8px;background:#fff;margin:0 24px}@keyframes ds-slide{to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.ds-band-track{animation:none}}"
+    },
+    {
+      "name": "Location Pill",
+      "kind": "custom",
+      "refersTo": "location-pill",
+      "description": "Ink half-pill flush left: city in three lines, grey globe disc.",
+      "html": "<div class=\"ds-loc\"><span>Based<br>in Hyderabad,<br>India</span><b></b></div>",
+      "css": ".ds-loc{display:inline-flex;align-items:center;gap:24px;background:#1C1D20;color:#fff;border-radius:0 999px 999px 0;padding:14px 14px 14px 24px;font-size:15px;line-height:20px;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}.ds-loc b{width:52px;height:52px;border-radius:50%;background:#999C9D;box-shadow:inset 0 0 0 14px #999C9D,inset 0 0 0 15.5px #fff}"
+    },
+    {
+      "name": "Product Card (OpusBar)",
+      "kind": "card",
+      "refersTo": "product-card-opusbar",
+      "description": "Cream card, name and kind in the foot over a hairline.",
+      "html": "<a class=\"ds-card ds-card-opus\" href=\"#\"><span class=\"ds-card-media\"></span><span class=\"ds-card-name\">OpusBar</span><span class=\"ds-card-kind\">macOS menu bar app · 2026</span></a>",
+      "css": ".ds-card{display:flex;flex-direction:column;justify-content:flex-end;width:200px;height:230px;border-radius:4px;padding:0 14px 10px;text-decoration:none;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}.ds-card-media{flex:1}.ds-card-name{border-top:1px solid currentColor;border-top-color:rgba(44,46,42,.2);padding-top:6px;font-size:20px;letter-spacing:-0.03em;line-height:1}.ds-card-kind{font-size:10.5px;margin-top:6px}.ds-card-opus{background:#F5F1E4;color:#2C2E2A}.ds-card-opus .ds-card-kind{color:#5F6159}"
+    },
+    {
+      "name": "Product Card (Graphy)",
+      "kind": "card",
+      "refersTo": "product-card-graphy",
+      "description": "Graphy blue card; screenshot with soft shadow; navy kind line for contrast.",
+      "html": "<a class=\"ds-card2\" href=\"#\"><span class=\"ds-shot\"></span><span class=\"ds-n\">Graphy</span><span class=\"ds-k\">Editor extension · 2025</span></a>",
+      "css": ".ds-card2{display:flex;flex-direction:column;width:200px;height:230px;border-radius:4px;padding:36px 14px 10px;background:#5A8BE6;color:#fff;text-decoration:none;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}.ds-shot{height:107px;border-radius:4px;background:#181818;box-shadow:0 9px 20px rgba(0,0,0,.28)}.ds-n{margin-top:auto;border-top:1px solid rgba(255,255,255,.2);padding-top:6px;font-size:20px;letter-spacing:-0.03em;line-height:1}.ds-k{font-size:10.5px;margin-top:6px;color:#0F1E3D}"
+    },
+    {
+      "name": "Product Card (OpenTicker)",
+      "kind": "card",
+      "refersTo": "product-card-openticker",
+      "description": "Ink card with an outline status pill and pulsing dot.",
+      "html": "<a class=\"ds-card3\" href=\"#\"><span class=\"ds-status\"><i></i>Coming soon</span><span class=\"ds-n3\">OpenTicker</span><span class=\"ds-k3\">Trading platform · Soon</span></a>",
+      "css": ".ds-card3{display:flex;flex-direction:column;align-items:flex-start;width:200px;height:230px;border-radius:4px;padding:83px 14px 10px;background:#0F1115;color:#E8EAEE;text-decoration:none;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}.ds-status{align-self:center;display:inline-flex;align-items:center;gap:8px;height:26px;padding:0 14px;border:1px solid rgba(232,234,238,.24);border-radius:999px;font-size:10px}.ds-status i{width:5px;height:5px;border-radius:50%;background:#E8EAEE;animation:ds-pulse 2s ease-in-out infinite}@keyframes ds-pulse{50%{opacity:.25}}.ds-n3{margin-top:auto;align-self:stretch;border-top:1px solid rgba(232,234,238,.2);padding-top:6px;font-size:20px;letter-spacing:-0.03em;line-height:1}.ds-k3{font-size:10.5px;margin-top:6px;color:#9A9EA6}@media (prefers-reduced-motion:reduce){.ds-status i{animation:none}}"
+    },
+    {
+      "name": "Round Contact Button",
+      "kind": "button",
+      "refersTo": "round-blue",
+      "description": "The one blue surface: 'Get in touch' circle sitting on the footer hairline.",
+      "html": "<a class=\"ds-round\" href=\"#\">Get in touch</a>",
+      "css": ".ds-round{display:grid;place-items:center;width:150px;aspect-ratio:1;border-radius:50%;background:#455CE9;color:#fff;font-size:17px;text-decoration:none;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;}"
+    },
+    {
+      "name": "Footer Panel",
+      "kind": "custom",
+      "refersTo": "footer-panel",
+      "description": "Ink panel under a curved top edge; transparent above the curve; hairline with the blue circle on it.",
+      "html": "<div class=\"ds-foot\"><div class=\"ds-foot-h\">Let’s work<br>together</div><div class=\"ds-foot-rule\"><a class=\"ds-foot-btn\" href=\"#\">Get in touch</a></div><div class=\"ds-foot-meta\">kushalbanda265@gmail.com<br>kushalbanda.com</div></div>",
+      "css": ".ds-foot{position:relative;background:#1C1D20;color:#fff;padding:70px 40px 40px;font-family:'General Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;clip-path:ellipse(75% 100% at 50% 100%)}.ds-foot-h{font-size:56px;line-height:1;letter-spacing:-0.03em}.ds-foot-rule{position:relative;height:1px;background:rgba(255,255,255,.2);margin:48px 0 40px}.ds-foot-btn{position:absolute;right:20%;top:-48px;display:grid;place-items:center;width:96px;height:96px;border-radius:50%;background:#455CE9;color:#fff;font-size:11px;text-decoration:none}.ds-foot-meta{color:#A3A5AA;font-size:12px;line-height:1.6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Name on the Wall, Pressed Flat",
+    "overview": "This is kushalbanda.com's world (`kushalBanda/sites`, `docs/portfolio/DESIGN.md`) carried onto a page that strips CSS, scripts and web fonts. Every designed surface is a committed, self-contained SVG generated by `assets/build.py`, which is the token source: General Sans is embedded as a data URI in each file, images are inlined, and motion is CSS inside the SVG. Between the images, GitHub's own Markdown supplies the white body field, its own type, and its own link blue. The README does not try to restyle that field; it lets GitHub's page be the site's white page.\n\nThe order is the site's three fields: a grey name band with the name sliding off both edges, the white body (GitHub's), and an ink footer that the page curves into. The site's hover preview becomes a filmstrip of three product cards laid flat, each in its product's own colours, sitting directly under the band. Density is low and size carries the hierarchy: one family at weight 400, enormous for names, small for everything that supports them, with hairlines instead of boxes.\n\nAll sizes below are SVG user units in each file's viewBox. The images are fluid (`width=\"100%\"` or a third of the column), so rendered size scales with GitHub's content column; a 1280-unit canvas renders at roughly 0.75 to 0.8 on desktop.",
+    "keyCharacteristics": [
+      "Three fields in order: grey band, GitHub's page as the white body, ink footer with a curved top edge.",
+      "Every designed surface is an SVG with embedded General Sans 400; no external fonts, images or services.",
+      "Product colours live only inside product cards; blue #455CE9 appears once, on the footer's round button.",
+      "Each image ships a desktop canvas and a phone canvas (`-sm`) switched by `<picture>` at max-width 600px; the footer also ships dark variants.",
+      "Motion is SVG-native CSS, small and looping, and all of it stops under prefers-reduced-motion."
+    ],
+    "rules": [
+      {
+        "name": "The Three Fields Rule",
+        "body": "Grey band, then GitHub's page, then the ink footer, in that order. Nothing between the band and the footer is painted; the white body belongs to GitHub.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cards Keep Their Colours Rule",
+        "body": "Product colours appear only inside their own card. They never become band, footer or button colours.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Blue Rule",
+        "body": "One blue surface per README: the round contact button. Blue is never a card or band colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Contrast Over Brand Rule",
+        "body": "A product's text colour gives way when it fails on its own field at small size. Graphy's kind line is navy for this reason; extend the same test to any new card.",
+        "section": "colors"
+      },
+      {
+        "name": "The Regular Weight Rule",
+        "body": "400 everywhere. Size makes hierarchy, never weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight Giant Rule",
+        "body": "Anything at 40 units or more takes -0.03em tracking (written as absolute letter-spacing: -7.5 at 250, -3.4 at 112, -1.2 at 40). Smaller text keeps default tracking.",
+        "section": "typography"
+      },
+      {
+        "name": "The Phone Scale-Up Rule",
+        "body": "Phone canvases render cards at about a third of a narrow column, so text inside cards is set larger on `-sm` files (name 64, kind 44), never smaller.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Page Rule",
+        "body": "Only things that sit above a surface (a screenshot, the page edge, the cat) cast a shadow. Cards, pills and the band do not.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Dark Edge Rule",
+        "body": "In dark variants, depth that would be a shadow becomes a faint paper hairline.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do generate every designed surface from `assets/build.py` and commit the SVGs; edit tokens there, not in the output.",
+      "Do embed General Sans 400 and every image as data URIs so each SVG renders alone.",
+      "Do ship a `-sm` phone canvas for every image and switch with `<picture>` at max-width 600px; ship dark variants where a surface touches GitHub's page (the footer).",
+      "Do keep the footer's area above the curve transparent so GitHub's page is the page that curves.",
+      "Do set anything at 40 units or more in 400 at -0.03em, and set card text larger on phone canvases.",
+      "Do check each card's text against its own field and change the text colour (as Graphy's navy kind line does) before shipping.",
+      "Do stop every animation under prefers-reduced-motion."
+    ],
+    "donts": [
+      "Don't add badge walls, stats cards, view counters or any third-party image service; the stack is one plain `<sub>` line.",
+      "Don't put blue on anything but the footer's round button.",
+      "Don't let product colours leave their cards.",
+      "Don't lighten the band grey; white on #737677 is already close to the floor at 4.58:1.",
+      "Don't use a second typeface or a bold weight inside the SVGs.",
+      "Don't cast a shadow on GitHub's dark page; draw the hairline instead.",
+      "Don't try to restyle GitHub's Markdown between the images; it is the white field."
+    ]
+  }
+}

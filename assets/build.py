@@ -107,21 +107,32 @@ def header(small: bool = False) -> str:
 # ---------- Product cards: the site's hover preview, laid flat ----------
 # Three cards sit inline at a third of the column each. Phones get the same cards with the foot type
 # set larger (a card is about 115px wide there) and a shorter kind line.
-CW, CH = 400, 460
+CW = 400
 GAP = 12
 
 
-def card(label, bg, ink, sub, name, kind, media, style="", gap=GAP, small=False) -> str:
+def card(label, bg, ink, sub, name, kind, media, line=(), line_ink=None, style="", gap=GAP, small=False) -> str:
+    """Desktop foot: name, a two-line note on what the product does, then kind and year.
+    Phones drop the note (a card is about 115px wide there) and set name and kind larger."""
     foot = 318 if small else 360  # the hairline above the card's name
-    name_px, kind_px = (64, 44) if small else (40, 21)
+    h = 460 if small else 548
+    if small:
+        text = (
+            f'<text x="28" y="{foot + 70}" font-size="64" letter-spacing="-1.9" fill="{ink}">{name}</text>'
+            f'<text x="28" y="{foot + 124}" font-size="44" fill="{sub}">{kind}</text>'
+        )
+    else:
+        note = "".join(f'<tspan x="28" y="{foot + 92 + i * 28}">{t}</tspan>' for i, t in enumerate(line))
+        text = (
+            f'<text x="28" y="{foot + 52}" font-size="40" letter-spacing="-1.2" fill="{ink}">{name}</text>'
+            f'<text font-size="21" fill="{line_ink or ink}">{note}</text>'
+            f'<text x="28" y="{foot + 156}" font-size="17" fill="{sub}">{kind}</text>'
+        )
     body = (
-        f'<rect width="{CW}" height="{CH}" rx="4" fill="{bg}"/>{media}'
-        f'<rect x="28" y="{foot}" width="{CW - 56}" height="1" fill="{ink}" opacity="0.2"/>'
-        f'<text x="28" y="{foot + (70 if small else 52)}" font-size="{name_px}" letter-spacing="{-0.03 * name_px:.1f}" '
-        f'fill="{ink}">{name}</text>'
-        f'<text x="28" y="{foot + (124 if small else 86)}" font-size="{kind_px}" fill="{sub}">{kind}</text>'
+        f'<rect width="{CW}" height="{h}" rx="4" fill="{bg}"/>{media}'
+        f'<rect x="28" y="{foot}" width="{CW - 56}" height="1" fill="{ink}" opacity="0.2"/>{text}'
     )
-    return svg(CW + gap, CH, label, fonts() + style, body)
+    return svg(CW + gap, h, label, fonts() + style, body)
 
 
 def opusbar(small: bool = False) -> str:
@@ -138,7 +149,7 @@ def opusbar(small: bool = False) -> str:
     return card(
         "OpusBar, a macOS menu bar app: a pixel cat that shows what your Claude Code and Codex sessions are doing.",
         "#F5F1E4", "#2C2E2A", "#5F6159", "OpusBar", "Menu bar app" if small else "macOS menu bar app · 2026",
-        media, style, small=small,
+        media, ("Your Claude Code and Codex", "sessions, in the menu bar."), style=style, small=small,
     )
 
 
@@ -161,7 +172,7 @@ def graphy(small: bool = False) -> str:
         # Kind line in deep navy: white on Graphy blue is 3.35:1, too low for small text.
         # On phones the name renders near 18px, too small for white at 3.35:1, so it takes the navy too.
         "#5A8BE6", "#0F1E3D" if small else "#FFFFFF", "#0F1E3D", "Graphy", "Extension" if small else "Editor extension · 2025",
-        media, small=small,
+        media, ("A map of your codebase", "for AI coding tools."), line_ink="#0F1E3D", small=small,
     )
 
 
@@ -182,7 +193,7 @@ def openticker(small: bool = False) -> str:
     return card(
         "OpenTicker, coming soon: self-hosted trading for Indian markets, operated by AI agents over MCP.",
         "#0F1115", "#E8EAEE", "#9A9EA6", "OpenTicker", "Trading platform" if small else "Trading platform · Soon",
-        media, style, gap=0, small=small,
+        media, ("Trading for Indian markets,", "run by AI agents."), style=style, gap=0, small=small,
     )
 
 

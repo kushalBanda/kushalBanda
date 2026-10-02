@@ -204,7 +204,7 @@ The site's near-monochrome cool neutrals and single blue, plus three borrowed pr
 The README is a single GitHub column. Designed surfaces are full-width images or three inline images:
 
 - **Name band:** 1280 by 460 (phones 720 by 600). Desktop puts the location pill top left (y 56), the role line top right (x 830), and the name along the bottom (baseline 432). Phones stack role on top, pill below it, then the name (baseline 560). The grey rect overdraws by 4 units on every side so no renderer shows a seam.
-- **Filmstrip:** three linked cards in one `<p>`, 400 by 460 each with a 12-unit transparent gap baked into the right of the first two (412 wide), sized 33.6%, 33.6% and 32.6% so they sum to the column and share one scale. Content sits on a 28-unit inset; the hairline above the name is at y 360 (phones 318).
+- **Filmstrip:** three linked cards in one `<p>`, 400 by 548 each (phones 400 by 460) with a 12-unit transparent gap baked into the right of the first two (412 wide), sized 33.6%, 33.6% and 32.6% so they sum to the column and share one scale. Content sits on a 28-unit inset; the hairline above the name is at y 360 (phones 318).
 - **Markdown body:** two `###` headings, plain paragraphs, one `<sub>` stack line separated by middots, and the latest five Medium posts between `<!-- medium:start -->` markers with `<sub>` publication and date. This is GitHub's type and spacing; the system does not override it.
 - **Footer:** 1280 by 640 (phones 720 by 780), side margin 80 (phones 48), hairline at y 470 (phones 460) with the round button centred on it, email and site under the rule, signature bottom right. A plain centred `<sub>` row of text links follows the image.
 
@@ -243,7 +243,7 @@ Ink half-pill flush left: "Based / in Hyderabad, / India" in Pill type, then a g
 A drawn paper arrow (two 2-unit strokes, pointing down-right) above "AI Engineer / building tools for agents" in Statement type.
 
 ### Product cards
-The site's hover preview, laid flat and linked. A 400 by 460 field in the product's colours with 4-unit corners, media in the upper part, a hairline in the card ink at 0.2, then Card Name and Card Kind.
+The site's hover preview, laid flat and linked. A 400 by 548 field (phones 400 by 460) in the product's colours with 4-unit corners, media in the upper part, a hairline in the card ink at 0.2, then Card Name, a two-line note on what the product does (21 units, card ink; navy on Graphy for contrast), and Card Kind at 17 units. Phones drop the note and set name and kind at 64 and 44 units.
 - **OpusBar:** the oneko sprite at 4x, pixelated, alternating two run frames every 250ms (0.5s cycle), with a contact shadow.
 - **Graphy:** a crop of the Explorer column with LineLens badges, inset 28, 4-unit corners on a #181818 backing, Screenshot shadow.
 - **OpenTicker:** a centred outline status pill (openticker-paper at 0.24) with a dot pulsing to 0.25 opacity over 2s ease-in-out and "Coming soon" ("Soon" on phones).

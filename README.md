@@ -4,9 +4,9 @@
 
 ### I build tools for people who work with AI agents.
 
-Small, fast tools that tell you what your agents are doing and what they need from you. [OpusBar](https://github.com/kushalBanda/OpusBar) puts your Claude Code and Codex sessions in the macOS menu bar. [Graphy](https://github.com/kushalBanda/Graphy) gives AI coding tools a map of your codebase. OpenTicker is next.
+Three products, one line: watch your agents, guide them, put them to work. [OpusBar](https://github.com/kushalBanda/OpusBar) shows what your Claude Code and Codex sessions are doing, right in the macOS menu bar. [Graphy](https://github.com/kushalBanda/Graphy) gives AI coding tools a map of your codebase before they touch it. OpenTicker, trading for Indian markets operated by AI agents over MCP, is next.
 
-By day I'm an AI engineer at Cornerstone OnDemand, working on production agent systems. More at **[kushalbanda.com](https://kushalbanda.com)**.
+By day I'm an AI engineer working on production agent systems. More at **[kushalbanda.com](https://kushalbanda.com)**.
 
 <sub>Python · TypeScript · FastAPI · LangGraph · RAG · PostgreSQL · ClickHouse · Kafka · Redis · AWS · Docker</sub>
 
@@ -31,7 +31,5 @@ By day I'm an AI engineer at Cornerstone OnDemand, working on production agent s
 <a href="https://kushalbanda.com">kushalbanda.com</a> ·
 <a href="https://www.linkedin.com/in/kushalbanda/">LinkedIn</a> ·
 <a href="https://medium.com/@kushalbanda">Medium</a> ·
-<a href="https://codeforces.com/profile/kushal_banda">Codeforces</a> ·
-<a href="https://leetcode.com/u/rQ0FAJb1Jj/">LeetCode</a> ·
-<a href="https://www.codechef.com/users/kushal_banda23">CodeChef</a>
+<a href="https://leetcode.com/u/rQ0FAJb1Jj/">LeetCode</a>
 </sub></p>

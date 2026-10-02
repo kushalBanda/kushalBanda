@@ -37,6 +37,8 @@ Show who Kushal Banda is through what he has built, then send the visitor somewh
 
 - Visual world shared with kushalbanda.com (see `kushalBanda/sites`, `docs/portfolio/DESIGN.md`).
 - Contact: kushalbanda265@gmail.com. Site https://kushalbanda.com. GitHub kushalBanda, LinkedIn kushalbanda, Medium @kushalbanda.
+- The README does not name the employer; the career line is "AI engineer working on production agent systems" (user's call, 2026-10-02).
+- Positioning is a product line (watch, guide, put agents to work), not "small, fast tools".
 - Signature: the name written by hand (Tegaki strokes, `sites/apps/web/src/products/portfolio/signature.svg`).
 
 ## Evidence on Hand
@@ -45,7 +47,7 @@ Show who Kushal Banda is through what he has built, then send the visitor somewh
 - Graphy: editor extension on Open VSX (https://open-vsx.org/extension/kushalBanda/graphy), MIT, github.com/kushalBanda/Graphy. Screenshot `sites/apps/web/public/portfolio/assets/graphy.webp`.
 - OpenTicker: coming soon; self-hosted trading for Indian markets, operated by AI agents over MCP. Nothing public to show.
 - Portrait and avatar: `sites/apps/web/public/portfolio/assets/`.
-- Competitive programming profiles: Codeforces kushal_banda, LeetCode, CodeChef kushal_banda23.
+- Competitive programming: LeetCode only on the README (Codeforces and CodeChef removed at the user's request, 2026-10-02).
 - No testimonials, user counts or press. Do not invent any.
 
 ## Product Principles

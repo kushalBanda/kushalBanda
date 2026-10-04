@@ -88,12 +88,13 @@ def header(small: bool = False) -> str:
         f'<tspan x="48" y="{py + 80}">in Hyderabad,</tspan><tspan x="48" y="{py + 120}">India</tspan></text>'
         + globe(pw - ph / 2, py + ph / 2)
     )
-    rx, ry = (48, 40) if small else (830, 52)
+    rx, ry = (48, 40) if small else (830, 36)
     role = (
         f'<g transform="translate({rx} {ry})" fill="none" stroke="{PAPER}" stroke-width="2">'
         '<path d="M2 2l26 26M28 7.5V28H7.5"/></g>'
         f'<text fill="{PAPER}" font-size="{40 if small else 38}"><tspan x="{rx}" y="{ry + 82}">AI Engineer</tspan>'
-        f'<tspan x="{rx}" y="{ry + 130}">building tools for agents</tspan></text>'
+        f'<tspan x="{rx}" y="{ry + 130}">designing products</tspan>'
+        f'<tspan x="{rx}" y="{ry + 178}">for agent users</tspan></text>'
     )
     body = (
         f'<rect x="-4" y="-4" width="{w + 8}" height="{h + 8}" fill="{GREY}"/>{pill}{role}'
@@ -101,7 +102,7 @@ def header(small: bool = False) -> str:
         f'<g transform="translate(0 {base}) scale({0.64 if small else 1})">'
         f'<g class="track" fill="{PAPER}">{track}</g></g>'
     )
-    return svg(w, h, "Kushal Banda. AI Engineer building tools for agents. Based in Hyderabad, India.", style, body)
+    return svg(w, h, "Kushal Banda. AI Engineer designing products for agent users. Based in Hyderabad, India.", style, body)
 
 
 # ---------- Product cards: the site's hover preview, laid flat ----------
@@ -201,21 +202,21 @@ def graphy(small: bool = False) -> str:
 def openticker(small: bool = False) -> str:
     if small:
         media = (
-            '<rect x="50" y="128" width="300" height="80" rx="40" fill="none" stroke="#E8EAEE" stroke-opacity="0.24"/>'
-            '<circle class="dot" cx="92" cy="168" r="8" fill="#E8EAEE"/>'
-            '<text x="116" y="181" font-size="34" fill="#E8EAEE">Soon</text>'
+            '<rect x="50" y="128" width="300" height="80" rx="40" fill="none" stroke="#F5F5F2" stroke-opacity="0.24"/>'
+            '<circle class="dot" cx="92" cy="168" r="8" fill="#FCD534"/>'
+            '<text x="116" y="181" font-size="34" fill="#F5F5F2">Soon</text>'
         )
     else:
         media = (
-            '<rect x="104" y="166" width="192" height="52" rx="26" fill="none" stroke="#E8EAEE" stroke-opacity="0.24"/>'
-            '<circle class="dot" cx="134" cy="192" r="5" fill="#E8EAEE"/>'
-            '<text x="154" y="199" font-size="20" fill="#E8EAEE">Coming soon</text>'
+            '<rect x="104" y="166" width="192" height="52" rx="26" fill="none" stroke="#F5F5F2" stroke-opacity="0.24"/>'
+            '<circle class="dot" cx="134" cy="192" r="5" fill="#FCD534"/>'
+            '<text x="154" y="199" font-size="20" fill="#F5F5F2">Coming soon</text>'
         )
     style = "@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}.dot{animation:pulse 2s ease-in-out infinite}"
     return card(
-        "OpenTicker, coming soon: self-hosted trading for Indian markets, operated by AI agents over MCP.",
-        "#0F1115", "#E8EAEE", "#9A9EA6", "OpenTicker", "Trading platform" if small else "Trading platform · Soon",
-        media, ("Trading for Indian markets,", "run by AI agents."), style=style, gap=0, small=small,
+        "OpenTicker, coming soon: a self-hosted trading platform your AI agent operates and you control.",
+        "#050505", "#F5F5F2", "#A6A6A1", "OpenTicker", "Trading platform" if small else "Trading platform · Soon",
+        media, ("Your AI agent trades.", "You stay in control."), style=style, gap=0, small=small,
     )
 
 

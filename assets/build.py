@@ -200,23 +200,21 @@ def graphy(small: bool = False) -> str:
 
 
 def openticker(small: bool = False) -> str:
-    if small:
-        media = (
-            '<rect x="50" y="128" width="300" height="80" rx="40" fill="none" stroke="#F5F5F2" stroke-opacity="0.24"/>'
-            '<circle class="dot" cx="92" cy="168" r="8" fill="#FCD534"/>'
-            '<text x="116" y="181" font-size="34" fill="#F5F5F2">Soon</text>'
-        )
-    else:
-        media = (
-            '<rect x="104" y="166" width="192" height="52" rx="26" fill="none" stroke="#F5F5F2" stroke-opacity="0.24"/>'
-            '<circle class="dot" cx="134" cy="192" r="5" fill="#FCD534"/>'
-            '<text x="154" y="199" font-size="20" fill="#F5F5F2">Coming soon</text>'
-        )
-    style = "@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}.dot{animation:pulse 2s ease-in-out infinite}"
+    # The landing page's hero, headline and live desk, as the site's own hover preview shows it.
+    iw = CW - 56
+    ih = 214 if small else iw * 0.62
+    y = 56 if small else 72
+    media = (
+        '<defs><filter id="shot" x="-20%" y="-20%" width="140%" height="160%">'
+        '<feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.5"/></filter></defs>'
+        f'<rect x="28" y="{y}" width="{iw}" height="{ih:.1f}" rx="4" fill="#0A0A0B" stroke="#1B1B1D" filter="url(#shot)"/>'
+        f'<svg x="28" y="{y}" width="{iw}" height="{ih:.1f}" viewBox="0 0 960 600" overflow="hidden">'
+        f'<image href="{data_uri("openticker.webp", "image/webp")}" width="960" height="600"/></svg>'
+    )
     return card(
-        "OpenTicker, coming soon: a self-hosted trading platform your AI agent operates and you control.",
+        "OpenTicker, coming soon: a self-hosted trading platform your AI agent operates and you control. Screenshot of its landing page.",
         "#050505", "#F5F5F2", "#A6A6A1", "OpenTicker", "Trading platform" if small else "Trading platform · Soon",
-        media, ("Your AI agent trades.", "You stay in control."), style=style, gap=0, small=small,
+        media, ("Self-hosted trading your AI", "agent operates, you control."), small=small,
     )
 
 

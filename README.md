@@ -4,7 +4,7 @@
 
 ### I design and build products for people who work with AI agents.
 
-Four products, one line: watch your agents, code with one, guide them, put them to work. [OpusBar](https://github.com/kushalBanda/OpusBar) shows what your Claude Code and Codex sessions are doing, right in the macOS menu bar. [Athena](https://github.com/kushalBanda/Athena) is an open-source coding agent for the terminal that knows your codebase, not just your prompt. [Graphy](https://github.com/kushalBanda/Graphy) gives AI coding tools a map of your codebase before they touch it. [OpenTicker](https://kushalbanda.com/openticker/), a self-hosted trading platform your AI agent operates and you control, is next.
+Four products, one line: watch your agents, code with one, guide them, put them to work. [OpusBar](https://github.com/kushalBanda/OpusBar) shows what your Claude Code and Codex sessions are doing, right in the macOS menu bar. [Athena](https://github.com/kushalBanda/Athena) is an open-source coding agent for the terminal that knows your codebase, not just your prompt. [Graphy](https://github.com/kushalBanda/Graphy) gives AI coding tools a map of your codebase before they touch it. [OpenTicker](https://github.com/kushalBanda/openticker), a self-hosted trading platform your AI agent operates and you control, is next.
 
 By day I'm an AI engineer working on production agent systems. More at **[kushalbanda.com](https://kushalbanda.com)**.
 

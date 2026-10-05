@@ -13,7 +13,7 @@ By day I'm an AI engineer working on production agent systems. More at **[kushal
 ### I write about AI most weeks
 
 <!-- medium:start -->
-- [Using Claude Code: Spending your effort](https://generativeai.pub/using-claude-code-spending-your-effort-cadb1577339f)<br><sub>Generative AI · 4 Oct 2026</sub>
+- [Using Claude Code: Spending your effort](https://pub.towardsai.net/using-claude-code-spending-your-effort-cadb1577339f)<br><sub>Towards AI · 4 Oct 2026</sub>
 - [GPT-6 Sol vs Claude Opus 5.5: Same Week, Different Bet](https://generativeai.pub/gpt-6-sol-vs-claude-opus-5-5-same-week-different-bet-e975a66dcb6b)<br><sub>Generative AI · 26 Sep 2026</sub>
 - [Claude Opus 5.5: Cheaper, Faster, and It Won’t Stop Thinking](https://pub.towardsai.net/claude-opus-5-5-cheaper-faster-and-it-wont-stop-thinking-da8989cc6979)<br><sub>Towards AI · 24 Sep 2026</sub>
 - [Most of Your LLM Calls Are a Waste. Here’s How Jev Fixes It.](https://medium.com/write-a-catalyst/most-of-your-llm-calls-are-a-waste-heres-how-jev-fixes-it-964b0a3d6b19)<br><sub>Write A Catalyst · 23 Sep 2026</sub>

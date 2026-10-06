@@ -144,7 +144,6 @@ def opusbar(small: bool = False) -> str:
         f'<svg x="{x0}" y="{y0}" width="{32 * s}" height="{32 * s}" viewBox="96 0 32 32" overflow="hidden">'
         f'<image class="cat" href="{data_uri("oneko.png", "image/png")}" width="256" height="128" '
         'image-rendering="pixelated" style="image-rendering:pixelated"/></svg>'
-        f'<ellipse cx="{CW / 2}" cy="{y0 + 32 * s - 6}" rx="44" ry="6" fill="#2C2E2A" opacity="0.12"/>'
     )
     style = "@keyframes run{0%,49.9%{transform:translateY(0)}50%,100%{transform:translateY(-32px)}}.cat{animation:run .5s infinite}"
     return card(

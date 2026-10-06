@@ -137,12 +137,13 @@ def card(label, bg, ink, sub, name, kind, media, line=(), line_ink=None, style="
 
 
 def opusbar(small: bool = False) -> str:
-    # oneko sheet: 8x4 frames of 32px; the run pose alternates (3,0) and (3,1) every 250ms, as on the site.
+    # The oneko run pose, frames (3,0) and (3,1) of the 32px sheet, alternating every 250ms as on the site.
+    # The strip holds only those two frames: in the full sheet the next frame's tail bled in at the crop edge.
     s = 4
     x0, y0 = (CW - 32 * s) / 2, 96 if small else 120
     media = (
-        f'<svg x="{x0}" y="{y0}" width="{32 * s}" height="{32 * s}" viewBox="96 0 32 32" overflow="hidden">'
-        f'<image class="cat" href="{data_uri("oneko.png", "image/png")}" width="256" height="128" '
+        f'<svg x="{x0}" y="{y0}" width="{32 * s}" height="{32 * s}" viewBox="0 0 32 32" overflow="hidden">'
+        f'<image class="cat" href="{data_uri("oneko-run.png", "image/png")}" width="32" height="64" '
         'image-rendering="pixelated" style="image-rendering:pixelated"/></svg>'
     )
     style = "@keyframes run{0%,49.9%{transform:translateY(0)}50%,100%{transform:translateY(-32px)}}.cat{animation:run .5s infinite}"

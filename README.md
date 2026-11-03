@@ -14,7 +14,7 @@ By day I'm an AI engineer working on production agent systems. More at **[kushal
 
 <!-- medium:start -->
 - [Don’t install 30 Claude Code plugins. Install these 6.](https://medium.com/write-a-catalyst/dont-install-30-claude-code-plugins-install-these-6-dcf74f8ecc26)<br><sub>Write A Catalyst · 2 Nov 2026</sub>
-- [I Counted 30 Days of My Claude Code Tokens. 98% Were Cache Reads.](https://briefs.aiadvances.org/i-counted-30-days-of-my-claude-code-tokens-98-were-cache-reads-f8463af4515d)<br><sub>briefs.aiadvances.org · 27 Oct 2026</sub>
+- [I Counted 30 Days of My Claude Code Tokens. 98% Were Cache Reads.](https://ai.plainenglish.io/i-counted-30-days-of-my-claude-code-tokens-98-were-cache-reads-f8463af4515d)<br><sub>ai.plainenglish.io · 27 Oct 2026</sub>
 - [Claude Code Mods Explained: What They Can Do That Hooks and Skills Can’t](https://medium.com/the-gravity/claude-code-mods-explained-what-they-can-do-that-hooks-and-skills-cant-538f91fe6f77)<br><sub>Medium · 25 Oct 2026</sub>
 - [I put a pixel cat in my Mac’s menu bar to tell me which coding agent is stuck](https://briefs.aiadvances.org/i-put-a-pixel-cat-in-my-macs-menu-bar-to-tell-me-which-coding-agent-is-stuck-456aceb86986)<br><sub>briefs.aiadvances.org · 18 Oct 2026</sub>
 - [How System One Model’s Jev and Clef Makes a Decision Without Writing a Token](https://medium.com/write-a-catalyst/how-system-one-models-jev-and-clef-makes-a-decision-without-writing-a-token-dac059aeff19)<br><sub>Write A Catalyst · 10 Oct 2026</sub>

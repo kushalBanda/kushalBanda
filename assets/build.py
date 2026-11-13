@@ -106,7 +106,7 @@ def header(small: bool = False) -> str:
 
 
 # ---------- Product cards: the site's hover preview, laid flat ----------
-# Five cards sit inline at a fifth of the column each. Phones get the same cards with the foot type
+# Six cards sit inline at a sixth of the column each. Phones get the same cards with the foot type
 # set larger (a card is about 68px wide there) and a shorter kind line.
 CW = 400
 GAP = 12
@@ -220,6 +220,26 @@ def graphy(small: bool = False) -> str:
     )
 
 
+def skilldesk(small: bool = False) -> str:
+    # The landing page's hero, headline and live dashboard window, as the site's own hover preview shows it.
+    iw = CW - 56
+    ih = 214 if small else iw * 0.62
+    y = 56 if small else 72
+    media = (
+        '<defs><filter id="shot" x="-20%" y="-20%" width="140%" height="160%">'
+        '<feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.35"/></filter></defs>'
+        f'<rect x="28" y="{y}" width="{iw}" height="{ih:.1f}" rx="4" fill="#0B3BD9" stroke="#3D6BFF" filter="url(#shot)"/>'
+        f'<svg x="28" y="{y}" width="{iw}" height="{ih:.1f}" viewBox="0 0 960 600" overflow="hidden">'
+        f'<image href="{data_uri("skilldesk.webp", "image/webp")}" width="960" height="600"/></svg>'
+    )
+    return card(
+        "SkillDesk, coming soon: a Mac app that shows everything your coding agents know and keep, and what to fix. Screenshot of its landing page.",
+        # Kind line in pale blue: 5.4:1 on the site's #0B3BD9 card.
+        "#0B3BD9", "#FFFFFF", "#C9D6FF", "SkillDesk", "Mac app" if small else "Mac app · Soon",
+        media, ("What your coding agents", "know and keep, in one place."), small=small,
+    )
+
+
 def openticker(small: bool = False) -> str:
     # The landing page's hero, headline and live desk, as the site's own hover preview shows it.
     iw = CW - 56
@@ -317,6 +337,7 @@ if __name__ == "__main__":
         write(f"header{sm}.svg", header(small))
         write(f"opusbar{sm}.svg", opusbar(small))
         write(f"claude-tldr{sm}.svg", tldr(small))
+        write(f"skilldesk{sm}.svg", skilldesk(small))
         write(f"athena{sm}.svg", athena(small))
         write(f"graphy{sm}.svg", graphy(small))
         write(f"openticker{sm}.svg", openticker(small))
